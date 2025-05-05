@@ -3,7 +3,7 @@ const { ApolloServer } = require('apollo-server-express');
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const FireRiskData = require('./models/FireRiskData'); // Importa el modelo
+const FireRiskData = require('./models/FireRiskData');
 const typeDefs = require('./graphql/schemas/fireRiskDataSchema');
 const resolvers = require('./graphql/resolvers/fireRiskDataResolver');
 
